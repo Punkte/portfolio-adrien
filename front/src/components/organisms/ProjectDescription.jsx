@@ -4,9 +4,13 @@ import PropTypes from 'prop-types';
 import Text from '../atoms/Text'
 import Button from '../molecules/Button'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom';
 
 // 4Nesting 
-const StyledButton = styled(Button)``
+const StyledButton = styled(Button)`
+  text-decoration: none;
+  color: inherit;
+`
 
 const StyledContainer = styled.div`
   max-width: 540px;
@@ -36,6 +40,7 @@ const StyledPictureContainer = styled.div`
 `
 
 const ProjectDescription = ({ title, text, pageLink, picture }) => {
+  console.log(pageLink)
   return (
     <StyledContainer>
       <StyledHeader>
@@ -44,7 +49,7 @@ const ProjectDescription = ({ title, text, pageLink, picture }) => {
         </div>
         <div className="header-content">
           <Text size="small" weight="light">{text}</Text>
-          <StyledButton link={pageLink}>Voir le projet</StyledButton>
+          <StyledButton link={pageLink} forwardedAs={Link} to={`/works/${pageLink}`}>Voir le projet</StyledButton>
         </div>
       </StyledHeader>
       <StyledPictureContainer>

@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Konami from 'react-konami-code';
 import KonamiCode from './components/KonamiCode'
+import Project from './pages/Project';
 
 function App() {
   let history = useHistory()
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/works/:id" component={Project} />
       </Switch>
     <Footer
       email="christella.levieux@icloud.com" 
