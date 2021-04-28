@@ -1,16 +1,8 @@
 # Collaborators
 
-* [Maxime OGER](https://github.com/maximeoger)
-* [Christella LEVIEUX](https://github.com/christellal)
-* [Yash PATEL](https://github.com/ya-sh)
 * [Paartheepan RAVEENTHIRAN](https://github.com/punkte)
-
-# Links
-
-* [App](https://christella.netlify.app/)
-* [Storybook](https://storybook-christella.now.sh/)
-* [Figma](https://www.figma.com/file/3OwxUpBqBda8l5SHpjMtzr/Epic-Classroom?node-id=0%3A1)
-
+* [Adrien BANNWARTH](https://github.com/adrienbannwarth)
+* [Etienne Mela](https://github.com/EtienneMela/)
 # How to install
 
 #### Requirements
