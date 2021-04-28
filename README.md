@@ -25,7 +25,7 @@ Le formulaire de contact contient 5 champs.
   * Le champs "Email" est obligatoire
   * Le champs "Message" est obligatoire  
 Lorsque je valide mes informations une validation est faite sur tous les champs.  
-Si un ou plusieurs champs n'est pas renseigné correctement, je n'ai pas la possibilité de soumettre le formulaire et une ou plusieurs erreurs apparaissent en dessous de chaque champs non valide.
+Si un ou plusieurs champs n'est pas renseigné correctement, je n'ai pas la possibilité de soumettre le formulaire et une ou plusieurs erreurs apparaissent en dessous de chaque champs non valide.  
 
 
 # Collaborators

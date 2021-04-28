@@ -82,6 +82,6 @@ Button.propTypes = {
     'default'
   ]),
   children: PropTypes.oneOfType([PropTypes.element, PropTypes.string])
-};
+}; 
 
 export default Button;
