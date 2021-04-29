@@ -5,7 +5,7 @@ import '@testing-library/jest-dom/extend-expect'
 
 import ContactForm from '../components/organisms/ContactForm'
 
-const contactFeature = loadFeature('./src/features/contact.feature')
+const contactFeature = loadFeature('./src/features/contact.feature') 
 
 defineFeature(contactFeature, test => {
   test('User sending email', ({ given, then, when, and }) => {

@@ -6,8 +6,8 @@ import '@testing-library/jest-dom/extend-expect';
 import { CaptionWithText } from '../stories/caption/caption.stories';
 
 describe('Renders Caption component', () => {
-    test('with default', () => {
-        const { container } = render(<CaptionWithText />);
-        expect(container).toBeTruthy();
-    });
+  test('with default', () => {
+      const { container } = render(<CaptionWithText />);
+      expect(container).toBeTruthy();
+  });
 });

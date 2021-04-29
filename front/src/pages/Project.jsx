@@ -8,7 +8,6 @@ const Project = (props) => {
   const {id} = useParams();
   console.log({id, props})
   const [loading, error, data] = useFetch(BASE_URI + getWorks + `/${id}`)
-  console.log(data, 'lol')
   if(error) {
     return <div>error</div>
   }
