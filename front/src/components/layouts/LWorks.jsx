@@ -33,6 +33,8 @@ const LWorks = ({works}) => {
     }
   }
 
+  console.log(works)
+
   return !!works && (
     <>
       <TitleContainer>
@@ -44,9 +46,9 @@ const LWorks = ({works}) => {
               <WorkItem isLeft={isOdd(key)} key={key}>
                 <ProjectDescription
                   title={w.title}
-                  text={w.description}
+                  text={w.content}
                   pageLink={w._id}
-                  picture={BASE_URI + w.cover.url}
+                  picture={BASE_URI + (w.cover?.url || '')}
                 />
               </WorkItem>
             ) 

@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "captions",
+  "info": {
+    "name": "caption"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
